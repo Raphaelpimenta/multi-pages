@@ -1,0 +1,80 @@
+@media only screen and (max-width: 414px){
+
+    header div.head-top{
+        background-color: white;
+        padding: 10px 22px;
+        margin-left: -24px;
+        position: relative;
+        top: 110px;
+    }
+
+    header h1.logo{
+        font-size: 50px;
+        margin-top: 0px;
+        position: relative;
+        bottom: 30px;
+    }
+
+    header hr{
+        width: 100px;
+        position: relative;
+        left: 34%;
+        bottom: 25px;
+    }
+
+    nav{
+        background-color: transparent;
+        margin-bottom: 0px;
+    }
+
+    nav ul.menu{
+        display: none;
+        text-align: center;
+        z-index: 999;
+    }
+
+    nav button.hamburger{
+        width: 10%;
+        height: 42px;
+        display: block;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        background-image: url(../img/menu.png);
+        background-size: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        bottom: 155px;
+        left: 85%;
+    }
+
+    nav.menu-opened ul.menu{
+        display: block;
+        position: fixed;
+        top: 180px;
+        background-color: whitesmoke;
+        width: 85%; /*****/
+        margin: 0px 30px;
+        border-radius: 10%;
+    }
+
+    nav.menu-opened button.hamburger{
+        background-image: url(../img/close.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        position: relative;
+        bottom: 155px;
+        left: 85%;
+    }
+
+}
+
+/*@media only screen and (max-width: 411px){
+
+
+    nav.menu-opened ul.menu{
+        width: 85%;
+    }
+}*/

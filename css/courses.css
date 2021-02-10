@@ -1,0 +1,54 @@
+/*Section*/
+section{
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+}
+
+section img{
+    width: 100%;
+    margin-right: 20px;
+}
+
+div h3, h1{
+    font-family: 'Playfair Display', serif;
+    color: sienna;
+}
+
+div h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+div p{
+    margin-bottom: 15px;
+}
+
+div a.link{
+    color: sienna;
+    text-decoration: none;
+    margin-top: 20px;
+    float: right;
+    font-family: 'Courgette', cursive;
+}
+
+div a.link:hover{
+    text-decoration: underline sienna;
+}
+
+/*Segunda Parte*/
+section img.image{
+    margin-left: 20px;
+}
+
+div a.link-2{
+    color: sienna;
+    text-decoration: none;
+    margin-top: 20px;
+    float: left;
+    font-family: 'Courgette', cursive;
+}
+
+div a.link-2:hover{
+    text-decoration: underline sienna;
+}

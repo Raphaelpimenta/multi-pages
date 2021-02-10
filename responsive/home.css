@@ -1,0 +1,46 @@
+@media only screen and (max-width: 414px){
+
+    div.slider img{
+        height: 30%;
+    }
+
+    section#text{
+        position: relative;
+        bottom: -90px;
+    }
+
+    section#text h2{
+        font-size: 30px;
+        margin-bottom: 2px;
+    }
+
+    section#text hr.underline{
+        margin-bottom: 15px;
+    }
+
+    section#text div.texto{
+        padding: 0% 5%;
+        font-size: 15px;
+        letter-spacing: 0.1px;
+    }
+
+    section#text h3{
+        font-size: 27px;  
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+
+    div.newsletter h3{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    div.newsletter a button{
+        padding: 10px;
+    }
+
+    div.newsletter a button i{
+        position: relative;
+        left: 65%;
+    }
+}

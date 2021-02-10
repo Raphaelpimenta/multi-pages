@@ -1,0 +1,56 @@
+/*Footer*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    color: chocolate;
+    background-color: whitesmoke;
+}
+
+footer h2{
+    color: sienna;
+    margin-bottom: 20px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    margin-bottom: 5px;
+}
+
+footer ul li a{
+    color: chocolate;
+    text-decoration: none;
+}
+
+footer div.contact p{
+    margin-bottom: 10px;
+}
+
+footer div.contact p.text-link{
+    margin-top: 20px;
+}
+
+footer div.contact p.text-link a{
+    text-decoration: none;
+    color: chocolate;
+}
+
+footer div.contact p.text-link i{
+    font-size: 10px;
+    padding-left: 30px;
+}
+
+footer div.contact hr{
+    border: none;
+    height: 0.2px;
+    background-color: sienna;
+}
+
+footer div.contact div.icon{
+    color: sienna;
+    font-size: 30px;
+    margin-top: 20px;
+}

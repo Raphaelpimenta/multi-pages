@@ -1,0 +1,106 @@
+/*Section*/
+section{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 110px;
+}
+
+section div{
+    display: inline-grid;
+    margin-right: 15%;
+}
+
+div input{
+    width: 160%;
+    height: 35px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    padding-left: 15px;
+    outline: none;
+    border: 2.5px solid sienna;
+    background-color: transparent;
+}
+
+/*Textarea*/
+textarea{
+    margin-left: 5%;
+    margin-bottom: 25px;
+    background-color: transparent;
+    border: 2.5px solid sienna;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    padding: 15px;
+    resize: none;
+    outline: none;
+}
+
+/*Button*/
+button{
+    display: flex;
+    margin-left: 5%;
+    width: 53%;
+    height: 35px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: sienna;
+    border: none;
+    font-family: 'Playfair Display';
+    font-size: 15px;
+    padding-left: 25%;
+    padding-top: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+/*image*/
+img{
+    position: absolute;
+    right: 25px;
+    top: 49%;
+    border: 1px solid sienna;
+    padding: 33px;
+
+}
+
+
+/*Footer*/
+footer{
+    display: flex;
+    padding: 80px;
+    color: sienna;
+}
+
+footer h2{
+    color: sienna;
+    margin-bottom: 20px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    margin-bottom: 5px;
+}
+
+footer ul li a{
+    color: sienna;
+    text-decoration: none;
+}
+
+footer hr {
+    display: none;
+}
+
+footer div.contact p{
+    margin-bottom: 10px;
+}
+
+footer div.part-2{
+    margin-left: 5%;
+}
+
+footer div.icon{
+    display: none;
+}

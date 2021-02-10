@@ -1,0 +1,36 @@
+@media only screen and (max-width: 414px){
+
+    section{
+        display: block;
+        padding: 15px;
+        margin-bottom: 50px;
+    }
+
+    section img{
+        margin-right: 0px;
+    }
+
+    div h1{
+        margin-bottom: 20px;
+    }
+
+    div a.link{
+        margin-top: 0px;
+    }
+
+    section img.image {
+        margin-left: 0px;
+        /*position: absolute;
+        top: 147%;
+        left: -2%;
+        width: 94%;*/
+    }
+
+    div a.link-2 {
+        position: absolute;
+        margin-top: 65%;
+        margin-left: 65%;
+    }
+
+
+}

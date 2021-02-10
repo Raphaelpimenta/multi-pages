@@ -1,0 +1,70 @@
+section#image{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+section img{
+    width: 100%;
+}
+
+section div.part-1{
+    display: flex;
+    position: absolute;
+    left: 65%;
+}
+
+div.part-1 p{
+    position: relative;
+    right: 29%;
+    margin-top: 60px;
+    font-size: 40px;
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    color: sienna;
+}
+
+section div.part-2{
+    display: flex;
+    position: absolute;
+    right: 27%;
+    width: 25%;
+    top: 89%;
+}
+
+div.part-2 p{
+    position: relative;
+    left: 18%;
+    margin-top: 80px;
+    font-size: 40px;
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    color: sienna;
+}
+
+/*Text*/
+section#text{
+    display: inline;
+    text-align: center;
+}
+
+section#text h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    color: sienna;
+}
+
+section#text p{
+    margin-bottom: 20px;
+    padding: 0% 20%;
+    letter-spacing: 0.2px;
+}
+
+section#text hr{
+    position: relative;
+    left: 42%;
+    width: 15%;
+    border: 1px solid sienna;
+    margin-bottom: 60px;
+}
